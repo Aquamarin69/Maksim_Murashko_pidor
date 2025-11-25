@@ -4,24 +4,17 @@
 int main()
 {
     // Create the main window
-    sf::RenderWindow window(sf::VideoMode({ 800, 800 }), "SFML window");
+    sf::RenderWindow window(sf::VideoMode({ 300, 800 }), "SFML window");
     while (window.isOpen())
     {
-        // Process events
         while (const std::optional event = window.pollEvent())
         {
-            // Close window: exit
             if (event->is<sf::Event::Closed>())
                 window.close();
         }
-
-        // Clear screen
+        // Ну типо да ввыаыа
         window.clear();
-
-        
-       
-
-        // Update the window
         window.display();
+ 
     }
 }
