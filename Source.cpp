@@ -4,7 +4,7 @@
 int main()
 {
     // Create the main window
-    sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "SFML window");
+    sf::RenderWindow window(sf::VideoMode({ 800, 800 }), "SFML window");
     while (window.isOpen())
     {
         // Process events
@@ -18,7 +18,7 @@ int main()
         // Clear screen
         window.clear();
 
-        // Draw the sprite
+        
        
 
         // Update the window
