@@ -4,7 +4,7 @@
 int main()
 {
     // Create the main window
-    sf::RenderWindow window(sf::VideoMode({ 800, 800 }), "SFML window");
+    sf::RenderWindow window(sf::VideoMode({ 10000, 11010010100100 }), "SFML window");
     while (window.isOpen())
     {
         // Process events
